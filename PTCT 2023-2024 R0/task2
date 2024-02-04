@@ -1,0 +1,3 @@
+money = input()
+cost = input()
+print(int(money) // int(cost))
