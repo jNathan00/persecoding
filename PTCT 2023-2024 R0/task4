@@ -1,0 +1,11 @@
+pass1 = str(input())
+pass2 = str(input())
+pass3 = str(input())
+if pass1 == pass2 == pass3:
+  print('OK')
+elif pass1 == pass2 != pass3:
+  print("ENTRY 3 MISMATCH")
+elif pass1 != pass2 and pass1 != pass3:
+  print("BOTH MISMATCH")
+elif pass1 == pass3 != pass2:
+  print("ENTRY 2 MISMATCH")
