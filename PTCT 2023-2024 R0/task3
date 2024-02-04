@@ -1,1 +1,8 @@
-
+scrambled = input()
+realcode = []
+for i in scrambled:
+  realcode.append(i)
+realcode += [realcode.pop(0)]
+realcode += [realcode.pop(0)]
+realword = ''.join(realcode)
+print(realword)
