@@ -1,0 +1,9 @@
+# doesn't work
+interactions = input()
+fulldays = interactions // 5
+lastday = fulldays * 5 + interactions % 5
+total = 0
+for i in range(fulldays):
+  total += 5 * i
+total += lastday
+print(total)
