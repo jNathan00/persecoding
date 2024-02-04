@@ -1,0 +1,7 @@
+valid = 0
+for i in range(12):
+  number = input()
+  if int(number[-1]) == 1 + int(number[0]) or int(number[-1]) == int(number[0]) - 1:
+    valid += 1
+print(valid)
+    
