@@ -1,0 +1,5 @@
+total = 0
+while total < 12:
+  units = int(input())
+  total += units
+print(total - 12)
